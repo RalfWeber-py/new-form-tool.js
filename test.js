@@ -256,7 +256,7 @@ function create() {
 // 填表
 function fill_form() {
     // 中文名字
-    var select_name = "敬远";getSheetName("select_name").replace(/[0-9].+/g, "");
+    var select_name = getSheetName("select_name").replace(/[0-9].+/g, "");
     // 帐号名称
     var fb_name = document.getElementsByClassName("account_name")[0].value.replace(/^ | $/g, "");
     // 发帖位置
